@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/small_img"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:scaleType="centerInside"
+            android:layout_toLeftOf="@+id/big_img" />
+
+        <ImageView
+            android:id="@+id/big_img"
+            android:layout_width="@dimen/image_size_50"
+            android:layout_height="@dimen/image_size_50"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/small_img"
+            android:layout_below="@+id/small_img" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/small_img2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:scaleType="fitCenter"
+            android:layout_toLeftOf="@+id/big_img2" />
+
+        <ImageView
+            android:id="@+id/big_img2"
+            android:layout_width="@dimen/image_size_50"
+            android:layout_height="@dimen/image_size_50"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/small_img2"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/small_img2" />
+    </RelativeLayout>
+
+</LinearLayout>

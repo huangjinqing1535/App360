@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">App360</string>
+    <string name="manager">管理</string>
+    <string name="appgroup">草园</string>
+    <string name="software">软件</string>
+    <string name="game">游戏</string>
+    <string name="home">首页</string>
+    <string name="recommend_hot">今日热点</string>
+    <string name="all">全部</string>
+    <string name="download">下载</string>
+
+
+    <string name="game_paint_style">按画风</string>
+    <string name="game_theme">按题材</string>
+    <string name="game_play_method">按玩法</string>
+
+
+    <string-array name="home_title">
+        <item>推荐</item>
+        <item>分类</item>
+        <item>排行榜</item>
+        <item>必备</item>
+        <item>福利</item>
+        <item>应用圈</item>
+        <item>娱乐</item>
+    </string-array>
+
+    <string-array name="game_title">
+        <item>推荐</item>
+        <item>发现好游</item>
+        <item>分类</item>
+        <item>排行榜</item>
+        <item>活动</item>
+    </string-array>
+
+
+    <string-array name="software_title">
+        <item>推荐</item>
+        <item>分类</item>
+        <item>排行榜</item>
+        <item>360出品</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:id="@+id/radio_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/radio_play_method"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_radio_bg"
+            android:button="@null"
+            android:padding="8dp"
+            android:gravity="center"
+            android:checked="true"
+            android:text="@string/game_play_method"/>
+
+        <RadioButton
+            android:id="@+id/radio_game_theme"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/middle_radio_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/game_theme"/>
+
+        <RadioButton
+            android:id="@+id/radio_paint_style"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/right_radio_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/game_paint_style"/>
+
+    </RadioGroup>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

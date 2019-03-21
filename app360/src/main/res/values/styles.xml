@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="ActionBarTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="home_bar_radio">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/bottombar_radio_textcolor</item>
+    </style>
+
+    <style name="TabStyle" parent="Widget.Design.TabLayout">
+        <!--设置指示条颜色-->
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <!--设置指示条高度-->
+        <item name="tabIndicatorHeight">2dp</item>
+        <!--背景颜色-->
+        <item name="tabBackground">@android:color/white</item>
+        <!--Tab的字体设置大小、颜色等-->
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+
+        <!--选中Tab字体颜色-->
+        <item name="tabSelectedTextColor">#ff0000</item>
+    </style>
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <!--大小-->
+        <item name="android:textSize">16sp</item>
+        <!--颜色-->
+        <item name="android:textColor">@color/gray</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="base_text">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/base_pad</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>

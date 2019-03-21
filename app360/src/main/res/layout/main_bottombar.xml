@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_home"
+            style="@style/home_bar_radio"
+            android:drawableTop="@drawable/bottombar_home"
+            android:text="@string/home" />
+
+        <RadioButton
+            android:id="@+id/radio_game"
+            style="@style/home_bar_radio"
+            android:drawableTop="@drawable/bottombar_game"
+            android:text="@string/game" />
+
+        <RadioButton
+            android:id="@+id/radio_software"
+            style="@style/home_bar_radio"
+            android:drawableTop="@drawable/bottombar_software"
+            android:text="@string/software" />
+
+        <RadioButton
+            android:id="@+id/radio_appgroup"
+            style="@style/home_bar_radio"
+            android:drawableTop="@drawable/bottombar_appgroup"
+            android:text="@string/appgroup" />
+
+        <RadioButton
+            android:id="@+id/radio_manager"
+            style="@style/home_bar_radio"
+            android:drawableTop="@drawable/bottombar_manager"
+            android:text="@string/manager" />
+
+
+</RadioGroup>
